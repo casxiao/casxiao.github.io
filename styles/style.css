@@ -1,8 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Michroma&display=swap');
+
+
+:root {
+    --bg-color: #FFFFFF; 
+    --text-color: #000000; 
+    --highlight-color-one: #F5F5F5;
+    --highlight-color-two: #520005; 
+    --highlight-color-three: #B9B6B9;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
 
 /* Hero Section */
 .hero-section {
-    background: black;
+    background: url('https://placehold.co/1200x800');
+    background-size: cover;
+    background-position: 50% 50%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -16,6 +34,11 @@
 
 .hero-section h1 {
     font-weight: 700;
+    font-family: "Michroma", sans-serif;
+}
+
+h2, h3, h4, h5 {
+    font-family: "Michroma", sans-serif;
 }
 
 .hero-section .lead {
@@ -26,6 +49,23 @@
     height: 300px;
     object-fit: cover;
     border-radius: 0;
+}
+
+.work-card {
+    font-family: "Funnel Sans", sans-serif;
+    background-color: var(--highlight-color-one);
+    color: var(--text-color);
+    border: none;
+}
+
+.btn {
+    background-color: var(--highlight-color-three);
+    border: none;
+    color: var(--text-color);
+}
+
+.btn:hover {
+    background-color: var(--highlight-color-two);
 }
 
 h2 {
