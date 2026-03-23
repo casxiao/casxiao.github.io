@@ -18,7 +18,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: url('https://placehold.co/1200x800');
+    background: url(../images/orangecat.webp);
     background-size: cover;
     background-position: 50% 50%;
     height: 100vh;
