@@ -76,3 +76,17 @@ h2 {
 .modal-body img {
     width: 100%;
 }
+
+.carousel-inner img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.catbutton {
+    height: 5pc;
+    aspect-ratio: 8/8;
+    object-fit: cover;
+    border: 5px solid;
+    border-radius: 50%;
+}
