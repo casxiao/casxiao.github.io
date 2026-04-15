@@ -4,9 +4,9 @@
 
 
 :root {
-    --bg-color: #FFFFFF; 
-    --text-color: #000000; 
-    --highlight-color-one: #F5F5F5;
+    --bg-color: #fffffc; 
+    --dark-text-color: #363130; 
+    --highlight-color: #d9d5d4;
     --highlight-color-two: #520005; 
     --highlight-color-three: #B9B6B9;
 }
@@ -16,16 +16,26 @@ body {
     color: var(--text-color);
 }
 
+/* Nav Bar */
+.navbar-expand-md {
+    background-color: var(--highlight-color);
+    display: flex;
+}
+
 /* Hero Section */
+
 .hero-section {
-    background: url(../images/orangecat.webp);
-    background-size: cover;
-    background-position: 50% 50%;
-    height: 100vh;
+    background-color: var(--bg-color);
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: var(--dark-text-color);
+}
+
+.hero-img {
+    height: 50vh;
+    padding: 10vh 0 0 0;
 }
 
 .bg-light {
@@ -89,4 +99,10 @@ h2 {
     object-fit: cover;
     border: 5px solid;
     border-radius: 50%;
+}
+
+.footer {
+    background-color: var(--dark-text-color);
+    color: var(--bg-color);
+    padding: 1pc 1pc 1pc 1pc;
 }
