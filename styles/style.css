@@ -22,6 +22,14 @@ body {
     display: flex;
 }
 
+nav ul {
+    list-style-type: none;
+    display: flex;
+    background-color: var(--highlight-color);
+    color: var(--dark-text-color);
+}
+
+
 /* Hero Section */
 
 .hero-section {
