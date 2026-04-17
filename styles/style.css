@@ -25,10 +25,20 @@ body {
 nav ul {
     list-style-type: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--highlight-color);
     color: var(--dark-text-color);
+    padding-left: 4pc;
+    padding-right: 4pc;
+    border-radius: 25px 25px 25px 25px;
+    /* top right bottom left */
+    margin: 0 0 8pc 0;
 }
 
+.nav-item {
+    padding: 1pc;
+}
 
 /* Hero Section */
 
