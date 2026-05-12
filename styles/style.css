@@ -124,3 +124,7 @@ h2 {
     color: var(--bg-color);
     padding: 1pc 1pc 1pc 1pc;
 }
+
+.row {
+    margin: 2pc 10pc 2pc 10pc;
+}
