@@ -131,8 +131,16 @@ h2 {
     color: #333;
 }
 
+h5 {
+    font-weight: 700;
+}
+
 .modal-body img {
     width: 100%;
+}
+
+.modal-body p {
+    margin: 2pc;
 }
 
 .carousel-inner img {
