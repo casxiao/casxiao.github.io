@@ -19,11 +19,7 @@ html, body {
 }
 
 body {
-    background-image: url("../images/background.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: var(--bg-color);
 
     color: var(--text-color);
     min-height: 100vh;
@@ -32,10 +28,40 @@ body {
 }
 
 
-/* Nav Bar */
-.navbar-expand-md {
-    background-color: var(--highlight-color);
+.monogram-section {
+    min-height: 45vh;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hero-img {
+    max-height: 35vh;
+    width: auto;
+    margin: 3pc 0 0 0;
+}
+
+.name-img {
+    max-width: 400px;
+    width: 60%;
+    height: auto;
+}
+
+.nav-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+
+}
+
+.navbar {
+    padding: 0;
 }
 
 nav ul {
@@ -43,46 +69,29 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--highlight-color);
-    color: var(--dark-text-color);
-    padding-left: 4pc;
-    padding-right: 4pc;
-    border-radius: 25px 25px 25px 25px;
-    /* top right bottom left */
-    margin: 0 0 8pc 0;
+
+    background-color: black;
+    color: var(--bg-color);
+
+    padding: 0 4pc;
+    border-radius: 100px;
+
+    margin: 0;
+}
+
+nav .nav-link {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    color: var(--bg-color);
+    font-size: 1.5rem;
 }
 
 .nav-item {
     padding: 1pc;
 }
 
-/* Hero Section */
-
-.hero-section {
-    background-color: var(--bg-color);
-    height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--dark-text-color);
-}
-
-.hero-img {
-    height: 50vh;
-    padding: 10vh 0 0 0;
-}
-
-.bg-light {
-    background-color: red;
-}
-
-.hero-section h1 {
-    font-weight: 700;
-    font-family: "Michroma", sans-serif;
-}
-
 h2, h3, h4, h5 {
-    font-family: "Michroma", sans-serif;
+    font-family: Helvetica;
 }
 
 .hero-section .lead {
@@ -96,7 +105,7 @@ h2, h3, h4, h5 {
 }
 
 .work-card {
-    font-family: "Funnel Sans", sans-serif;
+    font-family: Helvetica;
     background-color: var(--highlight-color-one);
     color: var(--text-color);
     border: none;
@@ -130,7 +139,7 @@ h2 {
 
 .footer {
     margin-top: 2pc;
-    background-color: var(--dark-text-color);
+    background-color: black;
     color: var(--bg-color);
     padding: 1pc;
 }
