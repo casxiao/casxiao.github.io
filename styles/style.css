@@ -123,14 +123,14 @@ h2 {
 }
 
 .footer {
-    margin-top: auto;
+    margin-top: 2pc;
     background-color: var(--dark-text-color);
     color: var(--bg-color);
     padding: 1pc;
 }
 
 .row {
-    margin: 2pc 10pc 2pc 10pc;
+    margin: 2pc 10pc 0pc 10pc;
 }
 
 .image-only-card {
