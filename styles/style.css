@@ -117,13 +117,13 @@ h2, h3, h4, h5 {
 }
 
 .btn {
-    background-color: var(--highlight-color-three);
+    background-color: var(--highlight-color-two);
     border: none;
-    color: var(--text-color);
+    color: var(--bg-color);
 }
 
 .btn:hover {
-    background-color: var(--highlight-color-two);
+    background-color: black;
 }
 
 h2 {
@@ -133,6 +133,14 @@ h2 {
 
 h5 {
     font-weight: 700;
+}
+
+.modal-header, .modal-footer {
+    background-image: url(../images/background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .modal-body img {
