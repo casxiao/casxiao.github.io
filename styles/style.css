@@ -19,7 +19,11 @@ html, body {
 }
 
 body {
-    background-color: var(--bg-color);
+    background-image: url(../images/background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     color: var(--text-color);
     min-height: 100vh;
     display: flex;
