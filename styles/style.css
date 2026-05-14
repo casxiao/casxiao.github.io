@@ -197,6 +197,16 @@ h5 {
 	transform: scale(1.03);
 }
 
+.carousel-inner img {
+    /* the width property tells the image to fill the entire container */
+    width: 100%;
+    /* the aspect-ratio property crops all images to be the same size so the carousel doesn't jump around. this one is 16/9, but you can change that to any size you need (3/4, 1/1, 9/16, etc) */
+    aspect-ratio: 8/5;
+    /* object-fit tells the image to scale without squishing the image to fit in our set aspect ratio */
+    object-fit: cover;
+}
+
+
 @keyframes pagefadein {
     from {
         opacity: 0;
