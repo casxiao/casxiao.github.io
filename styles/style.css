@@ -54,6 +54,12 @@ body {
     height: auto;
 }
 
+.me-img {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+}
+
 .nav-wrapper {
     position: sticky;
     top: 0;
