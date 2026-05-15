@@ -65,17 +65,23 @@ body {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-    margin: 1pc 1pc 1pc 1pc;
+    margin: 3pc 1pc 1pc 1pc;
+}
+
+.footermono {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
 }
 
 .logo-btn {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 90px;
-	height: 90px;
+	width: 50px;
+	height: 50px;
 	padding: .5pc;
-	border-radius: 8px;
 }
 
 .logo-btn img {
@@ -88,16 +94,26 @@ body {
 .about-container {
     background-color: white;
     width: 800px;
-    height: 500px;
+    max-width: 90%;
+    min-height: 500px;
     margin-top: 2pc;
     margin-bottom: 2pc;
     border-radius: 5%;
+    padding: 3rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.about-hi-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 1pc 0;
 }
 
 .aboutme {
     font-family: Helvetica;
     color: black;
-    margin: 5pc;
 }
 
 .nav-wrapper {
@@ -141,10 +157,6 @@ nav .nav-link:hover {
     padding: 1pc;
 }
 
-h2, h3, h4, h5 {
-    font-family: Helvetica;
-}
-
 .hero-section .lead {
     font-size: 1.5rem;
 }
@@ -172,12 +184,9 @@ h2, h3, h4, h5 {
     background-color: black;
 }
 
-h2 {
-    font-weight: 700;
-    color: #333;
-}
 
 h5 {
+    font-family: Helvetica;
     font-weight: 700;
 }
 
