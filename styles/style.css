@@ -185,6 +185,14 @@ nav .nav-link:hover {
 }
 
 
+a {
+  color: black;
+}
+
+a:hover {
+    color: var(--highlight-color-two);
+}
+
 h5 {
     font-family: Helvetica;
     font-weight: 700;
