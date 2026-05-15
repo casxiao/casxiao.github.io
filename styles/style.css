@@ -212,6 +212,8 @@ h5 {
 
 .modal-body p {
     margin: 2pc;
+    font-family: Helvetica;
+    font-size: 20px;
 }
 
 .carousel-inner img {
